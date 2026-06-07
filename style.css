@@ -1,0 +1,42 @@
+/* 1. Le fond du site, le texte général et le centrage */
+body {
+    background-color: #ffffff; /* Fond blanc comme ton logo */
+    color: #1a202c;            /* Texte gris très foncé (presque noir) pour que ce soit lisible */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    text-align: center;        /* Tout reste bien centré */
+}
+
+/* 2. Ton grand titre Alp4Dev */
+h1 {
+    color: #000000;            /* Le "Alp" et "Dev" en noir */
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* 3. Les sous-titres (Accueil, À propos...) */
+h2 {
+    color: #00a3e0;            /* Le bleu clair de ton logo pour les titres */
+    border-bottom: 2px solid #e2e8f0; /* Une petite ligne grise sobre en dessous */
+    padding-bottom: 8px;
+    margin-top: 40px;
+}
+
+/* 4. Le texte des paragraphes */
+p {
+    font-size: 1.1rem;
+    max-width: 800px;          
+    margin: 15px auto;         
+}
+
+/* 5. Les mots importants (comme les pseudos ou le "4") */
+strong {
+    color: #00a3e0;            /* Le bleu clair de ton logo pour faire ressortir les mots clés */
+}/* 6. Réglage de la taille du logo */
+.logo {
+    width: 150px;       /* Ajuste cette taille (ex: 120px ou 180px) selon tes goûts */
+    height: auto;       /* Garde les bonnes proportions pour ne pas déformer le dessin */
+    margin-top: 20px;
+}
